@@ -31,6 +31,7 @@ public class DepositCalculator {
 
       action = abcdef.nextInt();
       double value = 0;
+
       if (action ==1) {
           value = calculateSimplePercent(amount, 0.06, period);
       } else if (action == 2) {
